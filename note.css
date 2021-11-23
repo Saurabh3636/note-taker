@@ -1,0 +1,90 @@
+body{
+   
+    text-align: center;
+}
+h1{
+    color: honeydew;
+}
+.noteDetail{
+    color: honeydew;
+}
+p{
+    color: honeydew;
+}
+.img{
+    background-image: url(note2.jpg);
+    height: 200px;
+  background-size: cover;
+  position: relative;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button1{
+    background-color: green;
+    color: white;
+}
+.clear{
+    background-color: green;
+    color: white;
+}
+.details{
+    background-color: green;
+    color: white;
+}
+.x{
+    background-color: green;
+    color:white;
+ 
+}
+.details{
+    background-color: green;
+    color:white;
+ 
+}
+.notelist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.listA {
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.noteDetail{
+    word-break: break-word;
+}
+#window{
+    display: none; 
+}
+
+.modal {
+    /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /* z-index: 1; Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
