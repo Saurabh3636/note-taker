@@ -55,6 +55,7 @@ p{
 }
 .noteDetail{
     word-break: break-word;
+   color:blue;
 }
 #window{
     display: none; 
